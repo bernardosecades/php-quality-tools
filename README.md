@@ -1,5 +1,8 @@
 # PHP Quality Tools
 
+[![Build Status](https://travis-ci.org/bernardosecades/php-quality-tools.svg?branch=master)](https://travis-ci.org/bernardosecades/php-quality-tools)
+[![License](https://poser.pugx.org/bernardosecades/php-quality-tools/license)](https://packagist.org/packages/bernardosecades/php-quality-tools)
+
 It is a metapackage that contains requirements related with PHP Static Code Analysis Tools.
 
 ## Tools
@@ -24,8 +27,6 @@ Example:
 
 ```
 php vendor/bin/phpcpd test.php
-```
-
 ```
 
 ## Installation
