@@ -1,0 +1,39 @@
+{
+  "name": "bernardosecades/php-quality-tools",
+  "description": "A meta composer package for install PHP Static Code Analysis Tools.",
+  "keywords": ["acceptance", "php", "qa", "tools", "Analysis"],
+  "type": "metapackage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bernardo Secades",
+      "email": "bernardosecades@gmail.com",
+      "homepage": "https://github.com/bernardosecades",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+      "email": "bernardosecades@gmail.com",
+      "issues": "https://github.com/bernardosecades/php-quality-tools/issues",
+      "source": "https://github.com/bernardosecades/php-quality-tools"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "sensiolabs/security-checker": "~3.0",
+    "squizlabs/php_codesniffer": "~2.0",
+    "friendsofphp/php-cs-fixer": "~1.0",
+    "sebastian/phpcpd": "~2.0",
+    "pdepend/pdepend": "~2.0",
+    "phploc/phploc": "~2.0",
+    "sstalle/php7cc": "~1.0",
+    "phpmd/phpmd": "~2.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
+
