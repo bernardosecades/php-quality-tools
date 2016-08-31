@@ -1,6 +1,6 @@
 # PHP Quality Tools
 
-It is a metapackage that contains requirements to have tools related with php quality code.
+It is a metapackage that contains requirements related with PHP Static Code Analysis Tools.
 
 ## Tools
 
